@@ -5,7 +5,6 @@ namespace CoffeeShopRegistration.Controllers
 {
     public class UserController : Controller
     {
-
         public IActionResult Index()
         {
             return View();
@@ -26,6 +25,5 @@ namespace CoffeeShopRegistration.Controllers
         {
             return View(user);
         }
-
     }
 }
